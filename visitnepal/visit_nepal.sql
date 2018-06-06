@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 20, 2017 at 12:26 PM
+-- Generation Time: Jun 06, 2018 at 08:17 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -40,7 +40,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `trn_date`) VALUES
 (1, 'Decem', 'decem@gmail.com', '555e997e6bba5e815cb819ff8f35c479', '2017-07-20 12:20:22'),
-(2, 'loken', 'loken@gmail.com', '78a6c23408c2e70c9997177fd213f8e8', '2017-07-20 12:21:57');
+(2, 'loken', 'loken@gmail.com', '78a6c23408c2e70c9997177fd213f8e8', '2017-07-20 12:21:57'),
+(3, 'hello', 'hello@gmail.com', '9141de76717e095d4dd05f1e686ad6a8', '2017-08-01 01:54:54');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +61,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
